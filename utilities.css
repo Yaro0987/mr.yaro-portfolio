@@ -1,0 +1,72 @@
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrop
+{
+    flex-wrap: wrap;
+}
+
+.items-center
+{
+    align-items: center;
+}
+
+.space-1
+{
+    justify-content: center;
+}
+.space-2
+{
+    justify-content: space-around;
+}
+.space-3
+{
+    justify-content: space-between;
+}
+.branding img
+{
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.center
+{
+    text-align: center;
+}
+.center2
+{
+    justify-content: center;
+}
+
+.grid
+{
+    display: grid;
+    align-items: center;
+    justify-items:center;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "l l l r";
+}
+.inputs
+{
+    grid-area: l ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
